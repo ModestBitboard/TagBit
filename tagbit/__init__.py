@@ -6,7 +6,7 @@ automate writing to NDEF tags.
 
 Tested with and built for the Sony PaSoRi RC-S300 reader. (Since nfcpy doesn't support it)
 
-Created by Bitboard, 2025
+Created by Akito Hoshi, 2025.
 """
 
 from .reader import *

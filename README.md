@@ -7,8 +7,10 @@ Because I built it around that device it isn't yet guaranteed to work with other
 TagBit uses [pyscard](https://github.com/LudovicRousseau/pyscard) to interface with the NFC reader.
 
 ## Installation
-![PyPI](https://img.shields.io/pypi/v/tagbit?label=pypi%20package)
+![PyPI](https://img.shields.io/pypi/v/tagbit)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/tagbit)
+
+You can install TagBit from [PyPI](https://pypi.org/project/tagbit) using pip.
 
 `pip install tagbit`
 
@@ -29,7 +31,7 @@ records = tag.read()  # Returns the NDEF records from the tag.
 ### Writing
 ```python
 from tagbit import Reader
-import ndef  # https://pypi.org/project/ndef/
+import ndef  # https://pypi.org/project/ndeflib/
 
 records = [
     ndef.TextRecord("Hello, world!", 'en'),
@@ -62,6 +64,6 @@ amiibo_bin = tag.dump()  # Creates a dump of the Amiibo.
 - Improve NDEF implementation if needed
 
 ## Support
-If you liked this project, go ahead and give it a star! And if it really helped you out, consider sending us a tip!
+If you liked this project, go ahead and give it a star! And if it really helped you out, consider sending me a tip!
 
 > **BTC**: `bc1q0pp60krluv7a2w5cls09l9ahat5lqvu7mt9efq`
