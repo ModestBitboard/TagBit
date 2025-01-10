@@ -8,9 +8,7 @@ jobs:
   pypi-publish:
     name: Publish release to PyPI
     runs-on: ubuntu-latest
-    environment:
-      name: pypi
-      url: https://pypi.org/p/tagbit
+    environment: pypi
     permissions:
       id-token: write
     steps:
@@ -26,5 +24,5 @@ jobs:
       - name: Build package
         run: |
           python setup.py sdist bdist_wheel  # Could also be python -m build
-      - name: Publish package distributions to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1
+      - name: pypi-publish
+        uses: pypa/gh-action-pypi-publish@v1.12.3
