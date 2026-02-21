@@ -66,4 +66,4 @@ amiibo_bin = tag.dump()  # Creates a dump of the Amiibo.
 ## Support
 If you liked this project, go ahead and give it a star! And if it really helped you out, consider sending me a tip!
 
-> **BTC**: `bc1q0pp60krluv7a2w5cls09l9ahat5lqvu7mt9efq`
+> **BTC**: `bc1q8tmwuyxpgkuptwu3mn4ryaemp3umvwcc0e5nkk`
